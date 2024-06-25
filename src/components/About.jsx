@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import CommonBtn from "../common/CommonBtn";
 import {
@@ -55,6 +55,8 @@ const About = () => {
   const formatTime = (value) => {
     return value.toString().padStart(2, "0");
   };
+
+  //
   return (
     <div id="AboutData" className="-mt-111 pb-62 position-relative z-3">
       <Container className=" position-relative">
@@ -114,7 +116,12 @@ const About = () => {
                   </div>
                 </div>
                 <div className="mb-06 rangeLine position-relative ">
-                  <img src={Faceicon} className=" faceimg" alt="face-icon" />
+                  <input
+                    type="range"
+                    className="rangeSlider"
+                    min="0"
+                    max="100"
+                  />
                 </div>
                 <p className="mb-3 ff-manrope fw-normal fs-14 lh-21 clr-gray3">
                   Purchase $Clair fast until the price increase.
