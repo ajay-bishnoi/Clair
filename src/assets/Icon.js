@@ -556,6 +556,43 @@ export const PhaseCard = ({ headingName, content, clsName }) => {
   );
 };
 
-export const Ellips = ({setPositon}) => {
+export const Ellips = ({ setPositon }) => {
   return <div className={`ellips ${setPositon}`}></div>;
+};
+
+export const YellowDenote = () => {
+  return (
+    <span className="DenoteIcon1">
+      <svg
+        width="42"
+        height="32"
+        viewBox="0 0 42 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M41.5 3.5H42V3H41.5V3.5ZM0.833333 3.5C0.833333 4.97276 2.02724 6.16667 3.5 6.16667C4.97276 6.16667 6.16667 4.97276 6.16667 3.5C6.16667 2.02724 4.97276 0.833333 3.5 0.833333C2.02724 0.833333 0.833333 2.02724 0.833333 3.5ZM42 31.5V3.5H41V31.5H42ZM41.5 3H3.5V4H41.5V3Z"
+          fill="#FEF538"
+        />
+      </svg>
+    </span>
+  );
+};
+export const WhiteDenote = () => {
+  return (
+    <span className="DenoteIcon2">
+      <svg
+        width="42"
+        height="32"
+        viewBox="0 0 42 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M41 3.5H41.5V3H41V3.5ZM0.333333 3.5C0.333333 4.97276 1.52724 6.16667 3 6.16667C4.47276 6.16667 5.66667 4.97276 5.66667 3.5C5.66667 2.02724 4.47276 0.833333 3 0.833333C1.52724 0.833333 0.333333 2.02724 0.333333 3.5ZM41.5 31.5V3.5H40.5V31.5H41.5ZM41 3H3V4H41V3Z"
+          fill="white"
+        />
+      </svg>
+    </span>
+  );
 };

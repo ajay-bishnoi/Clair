@@ -11,7 +11,6 @@ import {
   USDCicon,
   USDTicon,
 } from "../assets/Icon";
-import Faceicon from "../assets/img/svg/cartonFace.svg";
 import Dino from "../assets/img/png/dino.webp";
 
 const About = () => {
@@ -57,6 +56,18 @@ const About = () => {
   };
 
   //
+  const [value, setValue] = useState(55);
+
+  const initialTokensSold = 98212738;
+  const initialTokensRemaining = 80212738;
+  const initialSliderValue = 50;
+  const totalTokens = initialTokensSold + initialTokensRemaining;
+  const calculatedTokensSold = Math.round(totalTokens * (value / 100));
+  const calculatedTokensRemaining = Math.max(
+    totalTokens - calculatedTokensSold,
+    0
+  );
+
   return (
     <div id="AboutData" className="-mt-111 pb-62 position-relative z-3">
       <Container className=" position-relative">
@@ -97,21 +108,29 @@ const About = () => {
             </Col>
             <Col lg={7} className="mt-lg-0 mt-md-5 mt-4">
               <div className=" w-100">
-                <div className="mb-18 px-sm-3 d-flex justify-content-between gap-28 align-items-center">
+                <div className="mb-18 px-3 d-flex justify-content-between gap-28 align-items-center">
                   <div className=" d-flex flex-column">
-                    <h5 className="mb-1 fw-normal ff-manrope fs-16 lh-24 clr-gray">
+                    <h5 className="mb-1 fw-normal ff-manrope  fs-16 lh-24 clr-gray ">
                       Tokens are Sold
                     </h5>
-                    <h4 className="mb-0 fw-bold fs-16 lh-24 clr-yello ff-manrope">
-                      98,212,738
+                    <h4
+                      className={`mb-0 fw-bold fs-16 lh-24  ff-manrope ${
+                        value >= 38 ? "clr-yello" : "clr-white"
+                      }`}
+                    >
+                      {calculatedTokensSold.toLocaleString()}
                     </h4>
                   </div>
                   <div className=" d-flex flex-column">
                     <h5 className="mb-1 fw-normal ff-manrope fs-16 lh-24 clr-gray">
                       Tokens Remaining
                     </h5>
-                    <h4 className="mb-0 fw-bold fs-16 lh-24 clr-whiteF1 ff-manrope">
-                      80,212,738
+                    <h4
+                      className={`mb-0 fw-bold fs-16 lh-24  ff-manrope ${
+                        value >= 98 ? "clr-yello" : "clr-white"
+                      }`}
+                    >
+                      {calculatedTokensRemaining.toLocaleString()}
                     </h4>
                   </div>
                 </div>
@@ -121,7 +140,37 @@ const About = () => {
                     className="rangeSlider"
                     min="0"
                     max="100"
+                    value={value}
+                    onChange={(e) => setValue(e.target.value)}
                   />
+                  <span className="DenoteIcon1">
+                    <svg
+                      width="42"
+                      height="32"
+                      viewBox="0 0 42 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M41.5 3.5H42V3H41.5V3.5ZM0.833333 3.5C0.833333 4.97276 2.02724 6.16667 3.5 6.16667C4.97276 6.16667 6.16667 4.97276 6.16667 3.5C6.16667 2.02724 4.97276 0.833333 3.5 0.833333C2.02724 0.833333 0.833333 2.02724 0.833333 3.5ZM42 31.5V3.5H41V31.5H42ZM41.5 3H3.5V4H41.5V3Z"
+                        fill={value >= 38 ? "#FEF538" : "white"}
+                      />
+                    </svg>
+                  </span>
+                  <span className="DenoteIcon2">
+                    <svg
+                      width="42"
+                      height="32"
+                      viewBox="0 0 42 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M41 3.5H41.5V3H41V3.5ZM0.333333 3.5C0.333333 4.97276 1.52724 6.16667 3 6.16667C4.47276 6.16667 5.66667 4.97276 5.66667 3.5C5.66667 2.02724 4.47276 0.833333 3 0.833333C1.52724 0.833333 0.333333 2.02724 0.333333 3.5ZM41.5 31.5V3.5H40.5V31.5H41.5ZM41 3H3V4H41V3Z"
+                        fill={value >= 98 ? "#FEF538" : "white"}
+                      />
+                    </svg>
+                  </span>
                 </div>
                 <p className="mb-3 ff-manrope fw-normal fs-14 lh-21 clr-gray3">
                   Purchase $Clair fast until the price increase.

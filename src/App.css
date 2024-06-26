@@ -14,34 +14,13 @@ body {
 .ff-manrope {
   font-family: "Manrope";
 }
-.fw-900 {
-  font-weight: 900;
-}
 .fw-800 {
   font-weight: 800;
 }
 .pointer {
   cursor: pointer;
 }
-/* ----opacity--- */
-.opacity_05 {
-  opacity: 0.5;
-}
-.opacity_06 {
-  opacity: 0.6;
-}
-.opacity_07 {
-  opacity: 0.7;
-}
-.opacity_08 {
-  opacity: 0.8;
-}
-.opacity_09 {
-  opacity: 0.9;
-}
-.opacity_1 {
-  opacity: 1;
-}
+
 /* ============================= header section ========================= */
 
 .header-bg-img {
@@ -358,6 +337,16 @@ input[type="range"]::-webkit-slider-thumb {
   max-width: 284px;
   height: 384px;
   z-index: -3;
+}
+.DenoteIcon1 {
+  position: absolute;
+  top: -31px;
+  left: 30%;
+}
+.DenoteIcon2 {
+  position: absolute;
+  top: -31px;
+  right: 3%;
 }
 
 /* ===================================Contaract Address =============== */
