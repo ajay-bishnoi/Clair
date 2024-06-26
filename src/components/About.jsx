@@ -69,7 +69,7 @@ const About = () => {
   );
 
   return (
-    <div id="AboutData" className="-mt-111 pb-62 position-relative z-3">
+    <div id="AboutData" className="pt-66 pb-62 position-relative z-3">
       <Container className=" position-relative">
         <div className="Coin-data max-818 w-100 mx-auto mb-100">
           <Row>

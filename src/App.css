@@ -33,8 +33,8 @@ body {
   padding: 26px 0 !important;
 }
 .nav-border {
-  border: 1px solid #f1f1f129;
-  background: rgba(241, 241, 241, 0.02);
+  border: 1px solid var(--grayF1);
+  background: var(--d-yelo);
   backdrop-filter: blur(12px);
 }
 .navbar-nav {
@@ -148,12 +148,7 @@ body {
 .-mt-115 {
   margin-top: -115px;
 }
-.HeaderLayer {
-  min-width: 1440px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
 .mouse {
   position: absolute;
   right: 5%;
@@ -170,6 +165,9 @@ body {
   position: relative;
   border-radius: 20px;
 }
+.pt-66 {
+  padding-top: 66px;
+}
 .Coin-data::after {
   content: "";
   position: absolute;
@@ -177,12 +175,8 @@ body {
   border-radius: 20px;
   padding: 1px;
   border: 1px solid;
-  background: linear-gradient(
-    123.75deg,
-    rgba(255, 255, 255, 0.2) 11.04%,
-    rgba(255, 255, 255, 0.02) 87.64%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--gray-gradient);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -204,7 +198,7 @@ body {
   height: 53px;
   min-width: 53px;
   border-radius: 5px;
-  background-color: #313131;
+  background-color: var(--gray31);
   transition: all 300ms linear;
   cursor: pointer;
 }
@@ -228,12 +222,7 @@ body {
 }
 
 .gradientline {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 246, 36, 0.0222222) 0%,
-    #fff624 55%,
-    rgba(255, 246, 36, 0) 100%
-  );
+  background: var(--yelo-gradient);
   width: 2px;
   height: 32px;
   opacity: 20%;
@@ -302,21 +291,18 @@ input[type="range"]::-webkit-slider-thumb {
 }
 .time {
   border-radius: 4px;
-  background: rgba(255, 246, 36, 0.2);
+  background: var(--yelo-blk);
   min-width: 50px;
   min-height: 40px;
 }
 .dot span {
   width: 4px;
   height: 4px;
-  background: rgba(255, 246, 36, 0.2);
+  background: var(--yelo-blk);
   border-radius: 50%;
 }
 .dot {
   margin-bottom: 10px;
-}
-.-mt-111 {
-  margin-top: -66px;
 }
 .mb-100 {
   margin-bottom: 100px;
@@ -356,7 +342,7 @@ input[type="range"]::-webkit-slider-thumb {
 .contract-bg {
   background-image: url("./assets/img/png/address-bg-1.webp");
   background-size: 100% 100%;
-  background-color: #fff62414 !important;
+  background-color: var(--brwon-mix) !important;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -371,8 +357,8 @@ input[type="range"]::-webkit-slider-thumb {
   padding: 0 12px;
 }
 form {
-  border: 1px solid #ffffff3d;
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--gray3D);
+  background: var(--l-blk);
   border-radius: 10px;
   min-width: 587px;
 }
@@ -387,8 +373,8 @@ form {
   margin-bottom: 60px !important;
 }
 .clairBorder {
-  border: 1px solid #fff6243d;
-  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--yelo-mix);
+  background: var(--gray5);
   border-radius: 6px;
   padding: 4px 16px;
 }
@@ -400,7 +386,7 @@ form {
   border-radius: 16px;
   padding: 32px 60px;
   transition: all 300ms linear;
-  background: #ffffff0f;
+  background: var(--grayf0);
   position: relative;
 }
 .shibaBoxBorder::before {
@@ -409,12 +395,8 @@ form {
   inset: 0;
   border-radius: 16px;
   padding: 1px;
-  background: linear-gradient(
-    39deg,
-    rgba(241, 241, 241, 0.24) -79.57%,
-    rgba(241, 241, 241, 0) 125.48%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--gray-gradient2);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -426,7 +408,7 @@ form {
 .coinBorder {
   min-width: 132px;
   height: 132px;
-  background: #191919;
+  background: var(--blk-mix5);
   border-radius: 50%;
   transition: all 300ms linear;
   cursor: pointer;
@@ -452,7 +434,7 @@ form {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  background-color: #141403 !important;
+  background-color: var(--blk-mix6) !important;
 }
 .py-160 {
   padding: 160px 0;
@@ -467,7 +449,7 @@ form {
   padding-bottom: 83px !important;
 }
 .secureBorder {
-  border-bottom: 1px solid #5a580d;
+  border-bottom: 1px solid var(--yello-green);
 }
 .max-475 {
   max-width: 475px;
@@ -485,7 +467,7 @@ form {
   height: 179px;
   padding: 39px 15px;
   position: relative;
-  background: #ffffff14;
+  background: var(--gray-5);
   border-radius: 16px;
 }
 .slideBox::after {
@@ -495,12 +477,8 @@ form {
   border-radius: 16px;
   padding: 1px;
   border: 1px solid;
-  background: linear-gradient(
-    150.17deg,
-    rgba(255, 246, 36, 0.4) -60.4%,
-    rgba(255, 246, 36, 0) 118.96%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--yelo-gradient3);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -521,7 +499,7 @@ form {
   left: 15px;
   width: 186px;
   height: 1px;
-  background: rgba(255, 246, 36, 0.2);
+  background: var(--yelo-blk);
 }
 .slideBox > span:nth-child(3) {
   position: absolute;
@@ -529,7 +507,7 @@ form {
   left: 217px;
   width: 57px;
   height: 1px;
-  background: rgba(255, 246, 36, 0.2);
+  background: var(--yelo-blk);
 }
 .slideBox > span:nth-child(4) {
   position: absolute;
@@ -537,7 +515,7 @@ form {
   right: 15px;
   width: 160px;
   height: 1px;
-  background: rgba(255, 246, 36, 0.2);
+  background: var(--yelo-blk);
 }
 /* ========================= Road map ===================== */
 .py-71-366 {
@@ -579,7 +557,7 @@ form {
   border-radius: 16px;
   padding: 24px;
   transition: all 300ms linear;
-  background: #ffffff14;
+  background: var(--gray-5);
   position: relative;
 }
 .phaseCard::after {
@@ -589,12 +567,8 @@ form {
   border-radius: 16px;
   padding: 1px;
   border: 1px solid;
-  background: linear-gradient(
-    153.46deg,
-    rgba(255, 246, 36, 0.4) -9.68%,
-    rgba(255, 246, 36, 0) 119.9%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--yelo-gradient4);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -638,8 +612,8 @@ form {
   gap: 24px;
 }
 .accordionItem {
-  border: 1px solid rgba(255, 255, 255, 0.24);
-  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--gray4);
+  background: var(--l-blk);
   border-radius: 8px;
 }
 .accordionHead {
@@ -673,7 +647,7 @@ form {
 .socialCard {
   max-width: 840px;
   padding: 50px 56px 40px;
-  background: #ffffff0a;
+  background: var(--blk-mix2);
   border-radius: 16px;
   position: relative;
   background-image: url("./assets/img/png/social-bg.webp");
@@ -687,12 +661,8 @@ form {
   border-radius: 16px;
   padding: 1px;
   border: 1px solid;
-  background: linear-gradient(
-    107.74deg,
-    rgba(255, 246, 36, 0.27) -16.6%,
-    rgba(255, 246, 36, 0) 134.64%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  background: var(--yelo-gradient2);
+  -webkit-mask: var(--white-mask);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
@@ -701,8 +671,8 @@ form {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid #393936;
-  background: #161613;
+  border: 1px solid var(--blk-mix3);
+  background: var(--blk-mix4);
   transition: all 300ms linear;
 }
 .socialIcon:hover {
@@ -731,7 +701,7 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #21210f;
+  background-color: var(--gray-4);
 }
 .py-120-71 {
   padding: 120px 0 71px;
@@ -762,7 +732,7 @@ form {
 }
 .FooterBorder {
   border-top: 1px solid;
-  border-color: rgba(255, 246, 36, 0.2);
+  border-color: var(--yelo-blk);
   padding-top: 20px;
 }
 /* ============ellips=========== */

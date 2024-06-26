@@ -88,13 +88,8 @@ const Hero = () => {
             </div>
             <div className=" d-flex justify-content-center mt-md-1 mt-4">
               <img
-                src={HeroImg}
-                className=" w-100 hero-img d-none d-sm-inline"
-                alt="hero-image"
-              />
-              <img
                 src={HeroImg2}
-                className=" w-100 hero-img2 d-sm-none"
+                className=" w-100 hero-img"
                 alt="hero-image"
               />
             </div>
@@ -108,11 +103,6 @@ const Hero = () => {
           </span>
         </section>
       </header>
-      <img
-        src={HeaderLayer}
-        alt="header-layer"
-        className=" w-100 HeaderLayer -mt-115 d-none d-sm-inline"
-      />
     </>
   );
 };

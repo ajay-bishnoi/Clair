@@ -12,10 +12,61 @@
   --whitef1: #f1f1f1;
   --black: #000000;
   --yello: #fff624;
+  --yello-green: #5a580d;
   --gray: #c1c1c1;
   --D9: #d9d9d9;
   --gray-2: #3a3a37;
   --gray-3: #a9a9a9;
+  --gray-4: #21210f;
+  --gray-5: #ffffff14;
+  --grayF1: #f1f1f129;
+  --gray31: #313131;
+  --gray3D: #ffffff3d;
+  --grayf0: #ffffff0f;
+  --brwon-mix: #fff62414;
+  --yelo-mix: #fff6243d;
+  --blk-mix2: #ffffff0a;
+  --blk-mix3: #393936;
+  --blk-mix4: #161613;
+  --blk-mix5: #191919;
+  --blk-mix6: #141403;
+  --d-yelo: rgba(241, 241, 241, 0.02);
+  --yelo-blk: rgba(255, 246, 36, 0.2);
+  --l-blk: rgba(255, 255, 255, 0.08);
+  --gray4: rgba(255, 255, 255, 0.24);
+  --gray5: rgba(255, 255, 255, 0.04);
+  --white-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  --gray-gradient: linear-gradient(
+    123.75deg,
+    rgba(255, 255, 255, 0.2) 11.04%,
+    rgba(255, 255, 255, 0.02) 87.64%
+  );
+  --gray-gradient2: linear-gradient(
+    39deg,
+    rgba(241, 241, 241, 0.24) -79.57%,
+    rgba(241, 241, 241, 0) 125.48%
+  );
+  --yelo-gradient: linear-gradient(
+    180deg,
+    rgba(255, 246, 36, 0.0222222) 0%,
+    #fff624 55%,
+    rgba(255, 246, 36, 0) 100%
+  );
+  --yelo-gradient2: linear-gradient(
+    107.74deg,
+    rgba(255, 246, 36, 0.27) -16.6%,
+    rgba(255, 246, 36, 0) 134.64%
+  );
+  --yelo-gradient3: linear-gradient(
+    150.17deg,
+    rgba(255, 246, 36, 0.4) -60.4%,
+    rgba(255, 246, 36, 0) 118.96%
+  );
+  --yelo-gradient4: linear-gradient(
+    153.46deg,
+    rgba(255, 246, 36, 0.4) -9.68%,
+    rgba(255, 246, 36, 0) 119.9%
+  );
 }
 /*--------------------------- clr --------------- */
 .clr-black {
@@ -104,9 +155,7 @@
   .roadmap-bg::after {
     height: 590px;
   }
-  .-mt-115 {
-    margin-top: -280px;
-  }
+
   .p-realative {
     position: relative;
   }
@@ -152,7 +201,10 @@
 }
 @media (max-width: 1400px) {
   .nav-py-26 {
-    padding: 24px 0 !important;
+    padding: 18px 0 !important;
+  }
+  .lh-72 {
+    line-height: 62px;
   }
   .py-180 {
     padding: 150px 0;
@@ -175,12 +227,6 @@
     --fs-40: 38px;
     --fs-48: 42px;
     --fs-60: 54px;
-  }
-  .-mt-111 {
-    margin-top: -20px;
-  }
-  .-mt-115 {
-    margin-top: -120px;
   }
   .lh-72 {
     line-height: 65px;
@@ -267,9 +313,7 @@
   .slideBox > span:nth-child(4) {
     width: 120px;
   }
-  .-mt-115 {
-    margin-top: -151px;
-  }
+
   .max-818 {
     max-width: 580px;
   }
@@ -343,25 +387,12 @@
     z-index: -3;
   }
   .phaseCard {
-    max-width: 300px;
-    height: 328px;
-    border-radius: 16px;
-    padding: 24px;
-    transition: all 300ms linear;
-    background: #ffffff14;
-    position: relative;
     backdrop-filter: blur(23px);
   }
 }
 @media (max-width: 768px) {
   .hero-img {
     max-width: 555px;
-  }
-  .-mt-115 {
-    margin-top: -191px;
-  }
-  .HeaderLayer {
-    min-width: 1210px;
   }
   .nav-py-26 {
     padding: 18px 0 !important;
@@ -497,9 +528,7 @@
   .lh-48 {
     line-height: 34px;
   }
-  .-mt-115 {
-    margin-top: -133px;
-  }
+
   .gap-32 {
     gap: 32px;
   }
@@ -512,12 +541,7 @@
   .py-120-71 {
     padding: 60px 0 20px;
   }
-  .HeaderLayer {
-    min-width: 780px;
-  }
-  .-mt-115 {
-    margin-top: -124px;
-  }
+
   .menu {
     scale: 0.8;
   }
@@ -530,9 +554,7 @@
   .nav-py-26 {
     padding: 14px 0 !important;
   }
-  .-mt-111 {
-    margin-top: 0px;
-  }
+
   .lh-57 {
     line-height: 40px;
   }

@@ -67,11 +67,13 @@ const Faq = () => {
               <div key={index} className="accordionItem overflow-hidden">
                 <div
                   onClick={() => toggleAccordion(index)}
-                  className="accordionHead d-flex align-items-center justify-content-between gap-3 pointer"
+                  className="accordionHead  d-flex align-items-center justify-content-between gap-3 pointer"
                 >
                   <h6
                     className={`mb-0 ${
-                      openAccordion === index ? "fw-semibold" : "fw-normal"
+                      openAccordion === index
+                        ? "fw-semibold text-uppercase"
+                        : "fw-normal"
                     } ff-manrope fs-16 lh-24 clr-gray `}
                   >
                     {item.title}
