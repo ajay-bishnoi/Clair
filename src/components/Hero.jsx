@@ -10,7 +10,6 @@ import {
 } from "../assets/Icon";
 import CommonBtn from "../common/CommonBtn";
 import HeroImg from "../assets/img/png/hero-image.webp";
-import HeaderLayer from "../assets/img/png/hero-bottom-layer.webp";
 import HeroImg2 from "../assets/img/png/hero-mobile-img.webp";
 
 const Hero = () => {

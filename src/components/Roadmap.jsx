@@ -6,7 +6,7 @@ import CandleChart from "../assets/img/png/candle-chart.webp";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap-bg py-71-366 position-relative z-3">
+    <div id="Roadmap" className="roadmap-bg py-71-366 position-relative z-3">
       <Container className=" position-relative">
         <Headings
           clsValue1="clr-whiteF1 text-center mb-101"
