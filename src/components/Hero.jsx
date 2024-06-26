@@ -15,7 +15,7 @@ import HeroImg2 from "../assets/img/png/hero-mobile-img.webp";
 const Hero = () => {
   return (
     <>
-      <header className="min-vh-100 d-flex flex-column justify-content-center header-bg-img position-relative">
+      <header className="minvh-100 d-sm-flex flex-column justify-content-center header-bg-img position-relative">
         <Navbar expand="lg" className="nav-py-26 nav-border">
           <Container>
             <div className=" d-flex align-items-center gap-12 pointer">
@@ -71,7 +71,7 @@ const Hero = () => {
           </Container>
         </Navbar>
         {/*  */}
-        <section className=" flex-grow-1 d-flex align-items-center position-relative">
+        <section className=" flex-sm-grow-1 py-xs-80 d-sm-flex align-items-center position-relative">
           <Container className="position-relative">
             <div className="text-center mx-auto max-720">
               <h1 className=" fw-bold fs-60 lh-72 ff-manrope mb-md-3 mb-2 clr-whiteF1">

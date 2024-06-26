@@ -659,4 +659,16 @@
   .roadmap2-ellips {
     display: none !important;
   }
+  .minvh-100 {
+    min-height: unset;
+  }
+  .py-xs-80 {
+    padding: 70px 0 !important;
+  }
+  .pt-66 {
+    padding-top: 50px;
+  }
+  .mouse {
+    bottom: 0%;
+  }
 }
