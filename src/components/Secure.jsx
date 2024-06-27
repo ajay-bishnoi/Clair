@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Protect from "../assets/img/png/Secure.webp";
+import ProtectLayer from "../assets/img/png/S.png";
 import CommonBtn from "../common/CommonBtn";
 import TokenIcon from "../assets/img/svg/slideimg1.svg";
 import TokenIcon2 from "../assets/img/svg/slideimg2.svg";
@@ -13,11 +14,16 @@ import { Ellips } from "../assets/Icon";
 const Secure = () => {
   return (
     <div id="Audit" className="py-160 secureBg">
-      <Container className="my-xs-80 position-relative">
+      <Container className="my-xs-80 position-relative z-3">
         <Row className="pb-83 secureBorder align-items-center flex-column-reverse flex-md-row">
           <Col md={6} className=" d-flex  justify-content-center mt-md-0 mt-5 ">
-            <div className=" position-relative z-3">
+            <div className=" position-relative">
               <img src={Protect} alt="Secure" className="secure" />
+              <img
+                src={ProtectLayer}
+                alt="protect-layer"
+                className="protect-layer "
+              />
             </div>
           </Col>
           <Col

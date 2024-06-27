@@ -179,17 +179,25 @@
   .footer-ellips {
     left: -335px;
   }
+  .hero-img {
+    max-width: 1150px !important;
+  }
 }
 @media (min-width: 1600px) {
   .roadmap-bg::after {
     height: 590px;
   }
-
+  .hero-img {
+    max-width: 1120px;
+  }
   .p-realative {
     position: relative;
   }
   .mouse {
     right: -7%;
+  }
+  .pt-66 {
+    padding-top: 30px;
   }
   .header-ellips {
     left: -26%;

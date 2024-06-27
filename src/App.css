@@ -343,9 +343,8 @@ input[type="range"]::-webkit-slider-thumb {
   padding: 168px 0;
 }
 .contract-bg {
-  background-image: url("./assets/img/png/address-bg-1.webp");
+  background-image: url("./assets/img/png/Contract-bg.webp");
   background-size: 100% 100%;
-  background-color: var(--brwon-mix) !important;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -424,7 +423,7 @@ form {
   gap: 80px;
 }
 .token-bg {
-  background-image: url("./assets/img/png/token-bg-1.webp");
+  background-image: url("./assets/img/png/Token.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -433,11 +432,19 @@ form {
 /* =================== Secure ==================== */
 
 .secureBg {
-  background-image: url("./assets/img/png/Securebg.webp");
+  background-image: url("./assets/img/png/address-1.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  background-color: var(--blk-mix6) !important;
+}
+.protect-layer {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 349px;
+  z-index: -3;
 }
 .py-160 {
   padding: 160px 0;
@@ -700,11 +707,10 @@ form {
 /* ================================== footer ============================= */
 
 .footer-layer {
-  background-image: url("./assets/img/png/footer-bg.webp");
+  background-image: url("./assets/img/png/footer.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: var(--gray-4);
 }
 .py-120-71 {
   padding: 120px 0 71px;
