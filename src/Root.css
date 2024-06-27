@@ -151,6 +151,35 @@
   line-height: 72px;
 }
 /* ----------------------------------responsive----------------- */
+@media (min-width: 1920px) {
+  .header-ellips {
+    left: -335px;
+  }
+  .about-ellips {
+    right: -355px;
+  }
+  .contract-ellips {
+    left: -350px;
+  }
+  .token-ellips {
+    right: -355px;
+  }
+  .secure-ellips {
+    right: -355px;
+  }
+  .roadmap-ellips {
+    left: -350px;
+  }
+  .roadmap2-ellips {
+    right: -350px;
+  }
+  .social-ellips {
+    right: -350px;
+  }
+  .footer-ellips {
+    left: -335px;
+  }
+}
 @media (min-width: 1600px) {
   .roadmap-bg::after {
     height: 590px;
@@ -160,43 +189,49 @@
     position: relative;
   }
   .mouse {
-    right: 0%;
+    right: -7%;
   }
   .header-ellips {
-    left: -210px;
+    left: -26%;
   }
   .about-ellips {
-    right: -210px;
+    right: -28%;
   }
   .contract-ellips {
-    left: -190px;
+    left: -26%;
   }
   .token-ellips {
-    right: -200px;
+    right: -28%;
   }
   .secure-ellips {
-    right: -200px;
+    right: -28%;
   }
   .roadmap-ellips {
-    left: -190px;
+    left: -26%;
   }
   .roadmap2-ellips {
-    right: -190px;
+    right: -26%;
   }
   .social-ellips {
-    right: -190px;
+    right: -26%;
   }
   .footer-ellips {
-    left: -210px;
+    left: -26%;
   }
   .phaseCard {
     max-width: 340px;
     padding: 29px;
   }
+  .dino2 {
+    right: 1%;
+  }
 }
 @media (min-width: 1400px) and (max-width: 1599.99px) {
   .container {
     max-width: 1140px !important;
+  }
+  .mouse {
+    right: -8%;
   }
 }
 @media (max-width: 1400px) {
@@ -669,6 +704,12 @@
     padding-top: 50px;
   }
   .mouse {
-    bottom: 0%;
+    display: none;
+  }
+  .pt-66 {
+    padding-top: 0;
+  }
+  .mb-40 {
+    margin-bottom: 32px;
   }
 }

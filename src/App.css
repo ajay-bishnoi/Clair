@@ -32,7 +32,7 @@ body {
 .nav-py-26 {
   padding: 26px 0 !important;
 }
-.minvh-100{
+.minvh-100 {
   min-height: 100vh;
 }
 .nav-border {
@@ -154,7 +154,7 @@ body {
 
 .mouse {
   position: absolute;
-  right: 5%;
+  right: 2%;
   z-index: 3;
   bottom: 15%;
   cursor: pointer;
