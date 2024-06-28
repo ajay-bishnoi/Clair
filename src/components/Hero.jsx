@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import Logo from "../assets/img/svg/logo.svg";
 import {
@@ -9,7 +9,6 @@ import {
   ShopingCart,
 } from "../assets/Icon";
 import CommonBtn from "../common/CommonBtn";
-import HeroImg from "../assets/img/png/hero-image.webp";
 import HeroImg2 from "../assets/img/png/hero-mobile-img.webp";
 
 const Hero = () => {

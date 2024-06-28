@@ -1,8 +1,7 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { Ellips, Headings, PhaseCard } from "../assets/Icon";
 import { data } from "../assets/Helper";
-import CandleChart from "../assets/img/png/candle-chart.webp";
 
 const Roadmap = () => {
   return (
