@@ -32,6 +32,9 @@ body {
 .nav-py-26 {
   padding: 26px 0 !important;
 }
+.pt-50 {
+  padding-top: 50px;
+}
 .minvh-100 {
   min-height: 100vh;
 }

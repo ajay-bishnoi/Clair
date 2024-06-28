@@ -71,7 +71,7 @@ const Hero = () => {
           </Container>
         </Navbar>
         {/*  */}
-        <section className=" flex-sm-grow-1 py-xs-80 d-sm-flex align-items-center position-relative">
+        <section className=" flex-sm-grow-1 py-xs-80 pt-50 d-sm-flex align-items-center position-relative">
           <Container className="position-relative">
             <div className="text-center mx-auto max-720">
               <h1 className=" fw-bold fs-60 lh-72 ff-manrope mb-md-3 mb-2 clr-whiteF1">
