@@ -196,9 +196,6 @@
   .mouse {
     right: -7%;
   }
-  .pt-66 {
-    padding-top: 30px;
-  }
   .header-ellips {
     left: -26%;
   }
@@ -232,6 +229,9 @@
   }
   .dino2 {
     right: 1%;
+  }
+  .minvh-100 {
+    min-height: unset !important;
   }
 }
 @media (min-width: 1400px) and (max-width: 1599.99px) {
