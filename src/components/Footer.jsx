@@ -21,40 +21,40 @@ const Footer = () => {
             the crypto defender is here, armed with memes and ready to act.
           </p>
           <Nav className=" d-flex align-items-center gap-32 justify-content-md-between justify-content-center">
-            <FooterLinks path="about" name="About" />
-            <FooterLinks path="Tokenomics" name="Tokenomics" />
-            <FooterLinks path="Audit" name="Audit" />
-            <FooterLinks path="Roadmap" name="Roadmap" />
+            <FooterLinks path="#about" name="About" />
+            <FooterLinks path="#Tokenomics" name="Tokenomics" />
+            <FooterLinks path="#Audit" name="Audit" />
+            <FooterLinks path="#Roadmap" name="Roadmap" />
             <FooterLinks
-              path=" WhitePaper"
+              path="#WhitePaper"
               name=" White Paper"
               clsName1="d-none "
               clsName2="d-md-block "
             />
             <FooterLinks
-              path="Privacy"
+              path="#Privacy"
               name="Privacy"
               clsName1="d-none "
               clsName2="d-md-block "
             />
             <FooterLinks
-              path="Cookies"
+              path="#Cookies"
               name="Cookies"
               clsName1="d-none "
               clsName2="d-md-block "
             />
             <FooterLinks
-              path="Disclaimer"
+              path="#Disclaimer"
               name="Disclaimer"
               clsName1="d-none "
               clsName2="d-md-block "
             />
           </Nav>
           <Nav className=" d-flex d-md-none align-items-center gap-32 justify-content-md-between justify-content-center mt-sm-3 mt-2">
-            <FooterLinks path="WhitePaper" name="White Paper" />
-            <FooterLinks path="Privacy" name="Privacy" />
-            <FooterLinks path="Cookies" name="Cookies" />
-            <FooterLinks path="Disclaimer" name="Disclaimer" />
+            <FooterLinks path="#WhitePaper" name="White Paper" />
+            <FooterLinks path="#Privacy" name="Privacy" />
+            <FooterLinks path="#Cookies" name="Cookies" />
+            <FooterLinks path="#Disclaimer" name="Disclaimer" />
           </Nav>
         </div>
         <div className="FooterBorder d-flex align-items-center justify-content-sm-between justify-content-center flex-wrap">
