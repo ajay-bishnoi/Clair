@@ -414,6 +414,7 @@ export const DiscordIcon = () => {
   return (
     <a
       target="_blank"
+      aria-label="Discord"
       href="https://discord.com/"
       class="socialIcon d-flex justify-content-center align-items-center flex-column "
     >
@@ -436,6 +437,7 @@ export const TwiterIcon = () => {
   return (
     <a
       target="_blank"
+      aria-label="twiter"
       href="https://x.com/?lang=en"
       class="socialIcon d-flex justify-content-center align-items-center flex-column"
     >
@@ -458,6 +460,7 @@ export const TelegramIcon = () => {
   return (
     <a
       target="_blank"
+      aria-label="Telegram"
       href="https://web.telegram.org/a/"
       class="socialIcon d-flex justify-content-center align-items-center flex-column"
     >

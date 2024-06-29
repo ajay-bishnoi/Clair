@@ -38,6 +38,7 @@ const Contract = () => {
               <input
                 type="text"
                 id="myInput"
+                aria-label="copy-text"
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
                 className="inputBox ff-manrope fw-normal fs-16 lh-24 clr-gray w-100"

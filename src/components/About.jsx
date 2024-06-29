@@ -137,6 +137,7 @@ const About = () => {
                 <div className="mb-06 rangeLine position-relative ">
                   <input
                     type="range"
+                    aria-label="range-input"
                     className="rangeSlider"
                     min="0"
                     max="100"
@@ -185,9 +186,9 @@ const About = () => {
                   {/* timer */}
                   <div className=" d-flex gap-2 align-items-end">
                     <div className=" d-flex flex-column align-items-center gap-02">
-                      <h6 className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
+                      <p className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
                         Days
-                      </h6>
+                      </p>
                       <div className="time day d-flex flex-column align-items-center justify-content-center">
                         <h3 className=" fw-normal ff-manrope fs-24 lh-36 clr-whiteF1 mb-0">
                           {`${formatTime(time.days)}`}
@@ -199,9 +200,9 @@ const About = () => {
                       <span></span>
                     </div>
                     <div className=" d-flex flex-column align-items-center gap-02">
-                      <h6 className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
+                      <p className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
                         Hours
-                      </h6>
+                      </p>
                       <div className="time day d-flex flex-column align-items-center justify-content-center">
                         <h3 className=" fw-normal ff-manrope fs-24 lh-36 clr-whiteF1 mb-0">
                           {`${formatTime(time.hours)}`}
@@ -213,9 +214,10 @@ const About = () => {
                       <span></span>
                     </div>
                     <div className=" d-flex flex-column align-items-center gap-02">
-                      <h6 className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
+                      <p
+                        className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
                         Mins
-                      </h6>
+                      </p>
                       <div className="time day d-flex flex-column align-items-center justify-content-center">
                         <h3 className=" fw-normal ff-manrope fs-24 lh-36 clr-whiteF1 mb-0">
                           {`${formatTime(time.minutes)}`}
@@ -227,9 +229,9 @@ const About = () => {
                       <span></span>
                     </div>
                     <div className=" d-flex flex-column align-items-center gap-02">
-                      <h6 className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
+                      <p className=" fw-normal ff-manrope fs-14 lh-21 clr-gray3 mb-0">
                         Secs
-                      </h6>
+                      </p>
                       <div className="time day d-flex flex-column align-items-center justify-content-center">
                         <h3 className=" fw-normal ff-manrope fs-24 lh-36 clr-whiteF1 mb-0">
                           {`${formatTime(time.seconds)}`}

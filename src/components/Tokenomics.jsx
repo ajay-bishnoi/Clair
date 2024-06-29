@@ -34,9 +34,9 @@ const Tokenomics = () => {
                 </div>
               </div>
               <div className="mb-32">
-                <h6 className=" fw-medium fs-16 lh-24 ff-manrope clr-gray mb-1">
+                <h5 className=" fw-medium fs-16 lh-24 ff-manrope clr-gray mb-1">
                   Total Tokens
-                </h6>
+                </h5>
                 <h3 className="mb-0 ff-manrope fw-semibold fs-40 lh-48 clr-yello">
                   100,000,000,000
                 </h3>
@@ -48,9 +48,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       1%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Presale
-                    </h6>
+                    </p>
                   </div>
                 </div>
                 <div className=" d-flex align-items-center gap-12">
@@ -59,9 +59,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       3%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Marketing
-                    </h6>
+                    </p>
                   </div>
                 </div>
                 <div className=" d-flex align-items-center gap-12">
@@ -70,9 +70,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       5%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Team - locked for 24 months
-                    </h6>
+                    </p>
                   </div>
                 </div>
                 <div className=" d-flex align-items-center gap-12">
@@ -81,9 +81,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       10%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Investors - locked for 24 months
-                    </h6>
+                    </p>
                   </div>
                 </div>
                 <div className=" d-flex align-items-center gap-12">
@@ -92,9 +92,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       21%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Exchange listings & liquidity
-                    </h6>
+                    </p>
                   </div>
                 </div>
                 <div className=" d-flex align-items-center gap-12">
@@ -103,9 +103,9 @@ const Tokenomics = () => {
                     <h4 className=" ff-manrope fw-medium fs-24 lh-36 clr-gray mb-0">
                       60%
                     </h4>
-                    <h6 className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
+                    <p className=" ff-manrope fw-normal fs-16 lh-24 clr-gray mb-0">
                       Rewards and burns
-                    </h6>
+                    </p>
                   </div>
                 </div>
               </div>
